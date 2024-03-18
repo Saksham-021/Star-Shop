@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Bootstrap Login page</title>
+  <title>Login Now</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
 
@@ -62,8 +62,8 @@
     function renderButton() {
       gapi.signin2.render('my-signin2', {
         'scope': 'profile email',
-        'width': 140,
-        'height': 25,
+        'width': 180,
+        'height': 23,
         'longtitle': true,
         'theme': 'dark',
         'onsuccess': onSuccess,
@@ -71,6 +71,31 @@
       });
     }
   </script>
+
+
+
+<body>
+ <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v19.0&appId=771875461549300" nonce="V1NCXsie"></script>
+ 
+
+<div class="fb-login-button" data-width="" data-size="small" data-button-type="continue_with" data-layout="" data-auto-logout-link="false" data-use-continue-as="true"></div>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
 
   <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
 </body></a></p>
@@ -80,25 +105,6 @@
 		</div>
 	</div>  
 	<!-- Footer -->
-
-	
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 </body>
 <!-- partial -->
